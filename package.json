@@ -15,9 +15,12 @@
         "eject": "react-scripts eject"
     },
     "dependencies": {
-        "routific": "^0.0.2",
+        "@google/maps": "^0.4.5",
+        "chai": "^4.1.2",
+        "mocha": "^5.0.4",
         "react": "^16.2.0",
         "react-dom": "^16.2.0",
-        "react-scripts": "1.1.1"
+        "react-scripts": "1.1.1",
+        "routific": "^0.0.2"
     }
 }
