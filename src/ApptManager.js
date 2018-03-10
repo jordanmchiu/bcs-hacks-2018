@@ -30,11 +30,8 @@ class HTMLParser {
             console.log("Promise.all error");
         })
     }
-    getLatLng(htmlDoc) {
-
-    }
     getLatLng(htmlNode) {
-        if (htmlNode) {
+        if (htmlNode.) {
             buildingPromises.push(this.getOneBuildingsInfo(node, data, id));
             return buildingPromises;
         } else if (node.hasOwnProperty("childNodes")) {
