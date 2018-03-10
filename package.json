@@ -9,9 +9,15 @@
         "node": ">= 8.9 < 9"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified \""
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
     },
     "dependencies": {
-        "routific": "^0.0.2"
+        "routific": "^0.0.2",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-scripts": "1.1.1"
     }
 }

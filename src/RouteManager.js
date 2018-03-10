@@ -7,3 +7,22 @@ const options = {token: token};
 const client  = new Routific.Client(options);
 
 const vrp = new Routific.Vrp();
+
+export default class RouteManager {
+    private instance RouteManager;
+    // TODO: write the class RouteManager
+
+    private constructor() {
+
+    }
+
+    public static getInstance() {
+        if (instance === undefined) {
+            instance = new RouteManager();
+        }
+        return instance;
+    }
+}
+
+// TODO: Singleton?  Yeah, singleton.
+//
