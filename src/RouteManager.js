@@ -1,3 +1,4 @@
+console.log("line 1");
 const Routific = require('routific');
 const googleMapsClient = require('@google/maps').createClient({
     key: 'AIzaSyBAOmNFIWU93LeibDTvCVipCx97sbylpUA'
@@ -10,12 +11,13 @@ const options = {token: token};
 const client  = new Routific.Client(options);
 
 const vrp = new Routific.Vrp();
+console.log("line 14");
 
 export default class RouteManager {
-    private vehicles;
-    private visits;
+    vehicles;
+    visits;
 
-    public constructor(httpParsedObject) {
+    constructor(httpParsedObject) {
         this.vehicles = this.makeFleet(httpParsedObject["numFriends"], httpParsedObject["startLoc"], httpParsedObject["endLoc"]);
         this.visits = this.makeVisits(httpParsedObject["appointments"]);
     }
@@ -24,7 +26,7 @@ export default class RouteManager {
      * Get get LatLng from given address as string
      * @param address
      */
-    public getLatLng(address) {
+    getLatLng(address) {
         googleMapsClient.geocode({
                 address: address
             },
@@ -42,7 +44,7 @@ export default class RouteManager {
      * @param startLoc
      * @param endLoc
      */
-    public makeFleet(numFriends, startLoc, endLoc) {
+    makeFleet(numFriends, startLoc, endLoc) {
         const vehicles = [];
         for (i = 1; i <= numFriends; i++) {
             const vehicleObject = {};
@@ -61,7 +63,7 @@ export default class RouteManager {
      * @param appointments
      * @returns {Array}
      */
-    public makeVisits(appointments) {
+    makeVisits(appointments) {
         const visits = [];
         let i = 1;
         for (const visit of appointments) {
@@ -79,7 +81,7 @@ export default class RouteManager {
      * Send request to Routific API
      * @returns API response (see documentation: https://docs.routific.com/docs/api-reference)
      */
-    public sendRequest() {
+    sendRequest() {
         this.visits.map((visit) => {
             vrp.addVisit(visit.id, visit);
         })
@@ -96,3 +98,30 @@ export default class RouteManager {
         })
     }
 }
+
+const testHttpObject = {
+    numFriends: 2,
+    startLoc: "2350 Wesbrook Mall",
+    endLoc: "2366 Main Mall #201",
+    appointments: {
+        visit1: {
+            location: {
+                name: "1680 Cambie",
+                lat: 49.2,
+                lon: -123.1
+            },
+            start: "9:00",
+            priority: "high"
+        },
+        visit2: {
+            location: {
+                name: "2738 West 21st Ave",
+                lat: 49.223,
+                lon: -123.1678
+            },
+            start: "10:00",
+            priority: "low"
+        }
+    }
+};
+let rm = new RouteManager(testHttpObject);
