@@ -1,4 +1,3 @@
-console.log("line 1");
 const Routific = require('routific');
 const googleMapsClient = require('@google/maps').createClient({
     key: 'AIzaSyBAOmNFIWU93LeibDTvCVipCx97sbylpUA'
@@ -11,12 +10,8 @@ const options = {token: token};
 const client  = new Routific.Client(options);
 
 const vrp = new Routific.Vrp();
-console.log("line 14");
 
-export default class RouteManager {
-    vehicles;
-    visits;
-
+module.exports = class RouteManager {
     constructor(httpParsedObject) {
         this.vehicles = this.makeFleet(httpParsedObject["numFriends"], httpParsedObject["startLoc"], httpParsedObject["endLoc"]);
         this.visits = this.makeVisits(httpParsedObject["appointments"]);
@@ -26,7 +21,7 @@ export default class RouteManager {
      * Get get LatLng from given address as string
      * @param address
      */
-    getLatLng(address) {
+    async getLatLng(address) {
         googleMapsClient.geocode({
                 address: address
             },
@@ -44,14 +39,14 @@ export default class RouteManager {
      * @param startLoc
      * @param endLoc
      */
-    makeFleet(numFriends, startLoc, endLoc) {
+    async makeFleet(numFriends, startLoc, endLoc) {
         const vehicles = [];
-        for (i = 1; i <= numFriends; i++) {
+        for (let i = 1; i <= numFriends; i++) {
             const vehicleObject = {};
             vehicleObject["id"] = "vehicle_" + i;
-            vehicleObject["start_location"] = this.getLatLng(startLoc);
+            vehicleObject["start_location"] = await this.getLatLng(startLoc);
             vehicleObject["start_location"]["id"] = startLoc;
-            vehicleObject["end_location"] = this.getLatLng(endLoc);
+            vehicleObject["end_location"] = await this.getLatLng(endLoc);
             vehicleObject["end_location"]["id"] = endLoc;
             vehicles.push(vehicleObject);
         }
@@ -66,7 +61,7 @@ export default class RouteManager {
     makeVisits(appointments) {
         const visits = [];
         let i = 1;
-        for (const visit of appointments) {
+        for (const visit in appointments) {
             const visitObject = {};
             visitObject["id"] = "visit_" + i;
             visitObject["location"] = visit["location"];
@@ -98,30 +93,3 @@ export default class RouteManager {
         })
     }
 }
-
-const testHttpObject = {
-    numFriends: 2,
-    startLoc: "2350 Wesbrook Mall",
-    endLoc: "2366 Main Mall #201",
-    appointments: {
-        visit1: {
-            location: {
-                name: "1680 Cambie",
-                lat: 49.2,
-                lon: -123.1
-            },
-            start: "9:00",
-            priority: "high"
-        },
-        visit2: {
-            location: {
-                name: "2738 West 21st Ave",
-                lat: 49.223,
-                lon: -123.1678
-            },
-            start: "10:00",
-            priority: "low"
-        }
-    }
-};
-let rm = new RouteManager(testHttpObject);

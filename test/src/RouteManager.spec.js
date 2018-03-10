@@ -1,4 +1,4 @@
-import RouteManager from "../../src/RouteManager";
+let RouteManager = require("../../src/RouteManager");
 
 describe("RouteManager tests", () => {
     const httpParsedObject = {
@@ -26,7 +26,6 @@ describe("RouteManager tests", () => {
             }
         }
     };
-    const rm = new RouteManager(httpParsedObject);
 
     before(async function () {
         console.log(`Before: ${this.test.parent.title}`);
@@ -44,7 +43,8 @@ describe("RouteManager tests", () => {
         console.log(`AfterTest: ${this.currentTest.title}`);
     });
 
-    it("run tests without crashing", async () => {
-
+    it("make object without crashing", async () => {
+        const rm = await new RouteManager(httpParsedObject);
+        const testLatLon = await rm.getLatLng("2350 Wesbrook Mall");
     });
 });
