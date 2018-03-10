@@ -1,38 +1,65 @@
-import * as parse5 from "/../node_modules/parse5/lib/index";
+// import * as parse5 from "/../node_modules/parse5/lib/index";
 
 
 class HTMLParser {
-    public routify(urlList) {
-        rp = require('request-promise');
-        entries = [];
-        for (listing of urlList) {
+    routify(urlList) {
+        let rp = require('request-promise');
+        let parse5 = require('parse5');
+        let entries = [];
+        for (let listing of urlList) {
             const URL = listing["url"];
-            routificEntry = rp(URL)
+            console.log(URL);
+            let routificEntry = rp(URL)
                 .then(function (htmlString) {
+                    console.log("Got html string!");
                     const htmlDoc = parse5.parse(htmlString);
+                    console.log(htmlDoc);
                     const latlng = this.getLatLng(htmlDoc);
-                    return Promise.resolve(this.completeEntry(listing, latlng));
+                    return Promise.resolve(htmlDoc);
                 })
                 .catch(function (err) {
                     console.log("ERROR");
                 });
             entries.push(routificEntry);
         }
+        console.log("Entries: " + entries);
         Promise.all(entries).then((finishedEntires) => {
-            routificRequest = this.formatRoutific(urlList, finishedEntries);
+            // let routificRequest = this.formatRoutific(urlList, finishedEntries);
             console.log(finishedEntires);
+        }).catch((err) => {
+            console.log("Promise.all error");
         })
     }
-    private getHTML(URL) { //return promise of html data
+    getLatLng(htmlDoc) {
 
     }
-    private getLatLng(htmlDoc) {
-        return htmlDoc;
+    getLatLng(htmlNode) {
+        if (htmlNode) {
+            buildingPromises.push(this.getOneBuildingsInfo(node, data, id));
+            return buildingPromises;
+        } else if (node.hasOwnProperty("childNodes")) {
+            for (const childNode of node.childNodes) {
+                buildingPromises.concat(
+                    this.parseIndexPage(childNode as parse5.AST.Default.Element, data, buildingPromises, id));
+            }
+            return buildingPromises;
+        } else {
+            return [];
+        }
     }
-    private completeEntry(listing, latlng) {
+    completeEntry(listing, latlng) {
 
     }
-    private formatRoutific(urlList, finishedEntries) {
+    formatRoutific(urlList, finishedEntries) {
 
     }
 }
+
+let testParser = new HTMLParser();
+let testObject = {
+    url: 'https://vancouver.craigslist.ca/van/apa/d/posh-4-bedroom-35-bathroom/6514756192.html',
+}
+let testObject2 = {
+    url: 'https://vancouver.craigslist.ca/van/apa/d/posh-4-bedroom-35-bathroom/6514756192.html',
+}
+testParser.routify([testObject, testObject2]);
