@@ -15,9 +15,14 @@
         "eject": "react-scripts eject"
     },
     "dependencies": {
-        "routific": "^0.0.2",
+        "http": "0.0.0",
+        "parse5": "^4.0.0",
         "react": "^16.2.0",
         "react-dom": "^16.2.0",
-        "react-scripts": "1.1.1"
+        "react-scripts": "1.1.1",
+        "request": "^2.83.0",
+        "request-promise": "^4.2.2",
+        "request-promise-native": "^1.0.5",
+        "routific": "^0.0.2"
     }
 }
