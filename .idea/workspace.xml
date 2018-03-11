@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97b539cb-6c00-4a7f-9504-6ba8d0ed0025" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/RouteManager.js" afterPath="$PROJECT_DIR$/src/RouteManager.js" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change beforePath="$PROJECT_DIR$/test/src/RouteManager.spec.js" afterPath="$PROJECT_DIR$/test/src/RouteManager.spec.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,31 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RouteManager.spec.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RouteManager.spec.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/src/RouteManager.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="43" />
+            <state relative-caret-position="804">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RouteManager.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RouteManager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RouteManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            <state relative-caret-position="1116">
+              <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -65,13 +54,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/ApptManager.js" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/test/src/RouteManager.spec.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/test/src/RouteManager.spec.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/RouteManager.js" />
+        <option value="$PROJECT_DIR$/test/src/RouteManager.spec.js" />
       </list>
     </option>
   </component>
@@ -233,29 +222,11 @@
       <updated>1520707030439</updated>
       <workItem from="1520707033694" duration="2510000" />
       <workItem from="1520711994905" duration="3141000" />
-      <workItem from="1520715778857" duration="10621000" />
+      <workItem from="1520715778857" duration="12134000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 52m 20s.xml">
-      <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 52m 26s.xml">
-      <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 53m 06s.xml">
-      <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 54m 08s.xml">
-      <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 54m 37s.xml">
-      <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 55m 43s.xml">
-      <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 56m 07s.xml">
       <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -268,9 +239,27 @@
     <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 57m 59s.xml">
       <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 16h 13m 13s.xml">
+      <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 16h 13m 23s.xml">
+      <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 16h 13m 59s.xml">
+      <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 16h 15m 52s.xml">
+      <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 16h 23m 19s.xml">
+      <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 16h 23m 25s.xml">
+      <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16285000" />
+    <option name="totallyTimeSpent" value="17798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2762" height="1770" extended-state="6" />
@@ -278,7 +267,7 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297943" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -305,7 +294,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/src/RouteManager.spec.js</url>
+          <line>49</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -435,24 +432,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/RouteManager.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="43" />
+        <state relative-caret-position="403">
+          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RouteManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="1116">
+          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/RouteManager.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="804">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>

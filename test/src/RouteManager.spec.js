@@ -45,22 +45,8 @@ describe("RouteManager tests", async () => {
         console.log(`AfterTest: ${this.currentTest.title}`);
     });
 
-    it("make object without crashing", async (done) => {
+    it("make object without crashing", async () => {
         let response = await rm.sendRequest(httpParsedObject);
-        setTimeout(() => {
-            console.log("Routific Response: " + response);
-            done();
-        }, 10000);
-    });
-
-    /*
-    it("Should get address", async () => {
-        try {
-            const latLng = await rm.getLatLng("2350 Wesbrook Mall");
-            console.log(latLng);
-        } catch (err) {
-            console.log(err);
-        }
-    });
-    */
+        console.log("Routific Response: " + JSON.stringify(response));
+    }).timeout(0);
 });
