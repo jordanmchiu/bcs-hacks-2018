@@ -22,7 +22,7 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
+            <state relative-caret-position="248">
               <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding />
             </state>
@@ -32,8 +32,8 @@
       <file leaf-file-name="RouteManager.spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/RouteManager.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="47" column="68" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="68" />
+            <state relative-caret-position="558">
+              <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -42,8 +42,8 @@
       <file leaf-file-name="RouteManager.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RouteManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+            <state relative-caret-position="434">
+              <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -69,8 +69,8 @@
         <option value="$PROJECT_DIR$/src/ApptManager.js" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/test/src/RouteManager.spec.ts" />
-        <option value="$PROJECT_DIR$/test/src/RouteManager.spec.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/test/src/RouteManager.spec.js" />
         <option value="$PROJECT_DIR$/src/RouteManager.js" />
       </list>
     </option>
@@ -233,67 +233,67 @@
       <updated>1520707030439</updated>
       <workItem from="1520707033694" duration="2510000" />
       <workItem from="1520711994905" duration="3141000" />
-      <workItem from="1520715778857" duration="3174000" />
+      <workItem from="1520715778857" duration="10621000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 13h 38m 45s.xml">
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 52m 20s.xml">
       <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 13h 39m 09s.xml">
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 52m 26s.xml">
       <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 13h 39m 50s.xml">
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 53m 06s.xml">
       <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 13h 42m 51s.xml">
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 54m 08s.xml">
       <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 13h 45m 26s.xml">
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 54m 37s.xml">
       <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 13h 45m 58s.xml">
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 55m 43s.xml">
       <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 13h 46m 38s.xml">
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 56m 07s.xml">
       <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 13h 46m 58s.xml">
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 57m 07s.xml">
       <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 13h 47m 20s.xml">
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 57m 40s.xml">
       <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 13h 54m 18s.xml">
+    <history-entry file="test_src_RouteManager_spec_js - 2018.03.10 at 15h 57m 59s.xml">
       <configuration name="test\src\RouteManager.spec.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8838000" />
+    <option name="totallyTimeSpent" value="16285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2762" height="1770" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14004457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297943" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14004457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297943" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39946914" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -305,7 +305,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -417,42 +417,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="1054">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ApptManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="372">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="248">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/RouteManager.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="47" column="68" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="68" />
+        <state relative-caret-position="558">
+          <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RouteManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+        <state relative-caret-position="434">
+          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
           <folding />
         </state>
       </provider>

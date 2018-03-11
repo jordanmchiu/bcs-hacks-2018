@@ -1,31 +1,33 @@
 let RouteManager = require("../../src/RouteManager");
 
-describe("RouteManager tests", () => {
+describe("RouteManager tests", async () => {
     const httpParsedObject = {
         numFriends: 2,
         startLoc: "2350 Wesbrook Mall",
-        endLoc: "2366 Main Mall #201",
-        appointments: {
-            visit1: {
+        endLoc: "2366 Main Mall",
+        appointments: [{
+                id: "visit_1",
                 location: {
                     name: "1680 Cambie",
                     lat: 49.2,
-                    lon: -123.1
+                    lng: -123.1
                 },
                 start: "9:00",
                 priority: "high"
             },
-            visit2: {
+            {
+                id: "visit_2",
                 location: {
                     name: "2738 West 21st Ave",
                     lat: 49.223,
-                    lon: -123.1678
+                    lng: -123.1678
                 },
                 start: "10:00",
                 priority: "low"
             }
-        }
+        ]
     };
+    const rm = new RouteManager();
 
     before(async function () {
         console.log(`Before: ${this.test.parent.title}`);
@@ -43,8 +45,22 @@ describe("RouteManager tests", () => {
         console.log(`AfterTest: ${this.currentTest.title}`);
     });
 
-    it("make object without crashing", async () => {
-        const rm = await new RouteManager(httpParsedObject);
-        const testLatLon = await rm.getLatLng("2350 Wesbrook Mall");
+    it("make object without crashing", async (done) => {
+        let response = await rm.sendRequest(httpParsedObject);
+        setTimeout(() => {
+            console.log("Routific Response: " + response);
+            done();
+        }, 10000);
     });
+
+    /*
+    it("Should get address", async () => {
+        try {
+            const latLng = await rm.getLatLng("2350 Wesbrook Mall");
+            console.log(latLng);
+        } catch (err) {
+            console.log(err);
+        }
+    });
+    */
 });
