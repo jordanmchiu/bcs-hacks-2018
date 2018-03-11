@@ -81,10 +81,12 @@ module.exports = class RouteManager {
             vehicleObject["id"] = "vehicle_" + i;
             vehicleObject["start_location"] = await this.getLatLngRouteManager(startLoc);
             //vehicleObject["start_location"] = { lat: 49.246292, lng: -123.116226 };
-            vehicleObject["start_location"]["id"] = startLoc;
+            vehicleObject["start_location"]["id"] = "START";
+            vehicleObject["start_location"]["name"] = startLoc;
             vehicleObject["end_location"] = await this.getLatLngRouteManager(endLoc);
             //vehicleObject["end_location"] = { lat: 49.246292, lng: -123.116226 };
-            vehicleObject["end_location"]["id"] = endLoc;
+            vehicleObject["end_location"]["id"] = "END";
+            vehicleObject["end_location"]["name"] = endLoc;
             vehicles.push(vehicleObject);
         }
         this.vehicles = vehicles;

@@ -3,6 +3,7 @@ let RouteManager = require("./RouteManager");
 
 class HTMLParser {
     async routify(inputObject) {
+        console.log(inputObject);
         let that = this;
         let rp = require('request-promise');
         let parse5 = require('parse5');
@@ -65,7 +66,7 @@ class HTMLParser {
         return {
             id: listing["name"],
             location: {
-                name: listing["name"],
+                name: listing["url"],
                 lat: latlng["lat"],
                 lng: latlng["lng"],
             },
@@ -76,7 +77,6 @@ class HTMLParser {
         };
     }
 }
-
 let testParser = new HTMLParser();
 testObject = {
     drivers: 3,
@@ -128,6 +128,14 @@ testObject = {
             endtime: '15:30',
             duration: 30,
             priority: 'high',
+        },
+        {
+            name: "Doghouse",
+            url: 'https://vancouver.craigslist.ca/van/apa/d/lovely-3-bedroom-family-home/6526135165.html',
+            time: '13:15',
+            endtime: '14:00',
+            duration: 30,
+            priority: 'high',
         }
 
     ],
@@ -135,10 +143,9 @@ testObject = {
 testParser.routify(testObject);
 
 
-
     /*
 
-                https://vancouver.craigslist.ca/van/apa/d/lovely-3-bedroom-family-home/6526135165.html
+
                     https://vancouver.craigslist.ca/van/apa/d/2-bedroom-ground-lvl-suite/6526119554.html
                         https://vancouver.craigslist.ca/van/vac/d/maui-westin-ocean-front-villa/6516979321.html
                             https://vancouver.craigslist.ca/van/apa/d/fully-furnished-1-bedroom/6516464710.html

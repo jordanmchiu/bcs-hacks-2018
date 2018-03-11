@@ -11,22 +11,22 @@ const EntryForm = ({addEntry, addDriver}) => {
     return (
         <div className="form">
 
-            <input className="submit-input-url" placeholder="Enter URL" ref={node => {
+            <input className="submit-input-url" placeholder="Enter Craigslist URL" ref={node => {
                 currUrl = node;
             }} />
-            <input className="submit-input-time" placeholder="Enter time HH:MM:SS" ref={node => {
+            <input className="submit-input-time" placeholder="Enter appointment time HH:MM" ref={node => {
                 time = node;
             }} />
-            <input className="submit-input-priority" placeholder="Enter Priority: High, Low, Medium" ref={node => {
+            <input className="submit-input-priority" placeholder="Enter Priority: high, low, medium" ref={node => {
                 priority = node;
             }} />
             <input className="submit-input-drivers" placeholder="Enter Number of Searchers" ref={node => {
                 drivers = node;
             }} />
-            <input className="submit-input-startloc" placeholder="2350 Wesbrook Mall" ref={node => {
+            <input className="submit-input-startloc" placeholder="Start point: 2350 Wesbrook Mall" ref={node => {
                 startloc = node;
             }} />
-            <input className="submit-input-endloc" placeholder="2366 Main Mall" ref={node => {
+            <input className="submit-input-endloc" placeholder="End point: 2366 Main Mall" ref={node => {
                 endloc = node;
             }} />
             <button className="add" onClick={() => {
