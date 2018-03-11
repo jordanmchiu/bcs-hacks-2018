@@ -2,7 +2,7 @@
     "name": "bcs-hacks",
     "description": "BCS EnviroHacks 2018",
     "homepage": "https://github.com/jordanmchiu/bcs-hacks-2018",
-    "author": "Tim Pellisier, Lisa O'Brien, Jordan Chiu, Vahid",
+    "author": "Tim Pellisier, Lisa O'Brien, Jordan Chiu",
     "license": "GPL-3.0",
     "version": "1.0.0",
     "engines": {
