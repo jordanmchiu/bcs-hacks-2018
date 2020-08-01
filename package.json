@@ -15,18 +15,19 @@
         "eject": "react-scripts eject"
     },
     "dependencies": {
-        "@google/maps": "^0.4.5",
+        "@google/maps": "^1.1.3",
         "chai": "^4.1.2",
         "fetch": "^1.1.0",
-        "http": "0.0.0",
-        "mocha": "^5.0.4",
-        "parse5": "^4.0.0",
+        "http": "0.0.1-security",
+        "mocha": "^8.1.0",
+        "npm": "^6.14.7",
+        "parse5": "^6.0.1",
         "react": "^16.2.0",
         "react-dom": "^16.2.0",
-        "react-scripts": "1.1.1",
+        "react-scripts": "3.4.1",
         "request": "^2.83.0",
         "request-promise": "^4.2.2",
         "request-promise-native": "^1.0.5",
-        "routific": "^0.0.2"
+        "routific": "^0.0.3"
     }
 }
